@@ -1,210 +1,191 @@
 /*Transiciones*/
-
-.form-control{
-    transition: all 1s;
-}
+.form-control {
+  transition: all 1s; }
 
 .form-control:focus {
-    font-size: 24px;
-    background-color: #6C7CBC;
-    color: whitesmoke;
-    font-weight: bold;
-}
+  font-size: 24px;
+  background-color: #6C7CBC;
+  color: whitesmoke;
+  font-weight: bold; }
 
-.main{
-    transition: 0.5s;
-}
+.main {
+  transition: 0.5s; }
 
 .main:hover {
-    background-color: #f38291;
-}
-
+  background-color: #f38291; }
 
 .homeTeam:hover {
-    transition: 0.5s;
-}
+  transition: 0.5s; }
 
 .homeTeam:hover {
-    background-color: #FCE800;
-}
+  background-color: #FCE800; }
 
-.aside{
-    transition: 0.5s;
-}
+.aside {
+  transition: 0.5s; }
 
 .aside:hover {
-    background-color: #ABD484;
-}
+  background-color: #ABD484; }
 
 /*Animaciones*/
-
 .textoSobreImg {
-    animation-duration: 3s;
-    animation-name: aparecer;
-}
+  animation-duration: 3s;
+  animation-name: aparecer; }
 
 @keyframes aparecer {
-    0% {
-        opacity: 0;
-    }
-    100% {
-        opacity: 1;
-    }
-}
-
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
 
 /*Pagina Home*/
+.navbar-custom {
+  background-color: #000000; }
 
 .videoBanner {
-    filter: brightness(65%);
-}
+  filter: brightness(65%);
+  width: 100%; }
 
-.textoSobreImg{
-    position: absolute;
-    top: 15%;
-    left: 10%;
-    font-weight: bold;
-}
+.textoSobreImg {
+  position: absolute;
+  top: 30%;
+  left: 10%;
+  font-weight: bold; }
 
-.portadaBanner { 
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    color: whitesmoke;
-    font-size: 6.5rem;
-    font-weight: 700;
-}
+.portadaBanner {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: whitesmoke;
+  font-size: 6.5rem;
+  font-weight: 700; }
 
 .portada2 {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: 30px;
-    font-weight: 400;
-    background-color: #5EBFAC;
-    color:whitesmoke;
-    padding: 1px;
-    margin: 5px;
-}
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 3rem;
+  font-weight: 400;
+  background-color: #5EBFAC;
+  color: whitesmoke;
+  padding: 1px;
+  margin: 5px; }
 
 .portada3 {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: 30px;
-    font-weight: 400;
-    background-color: #5EBFAC;
-    color:whitesmoke;
-    padding: 1px;
-    width: 30%;
-    margin-top: 5px;
-    margin-left: 5px;
-}
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+  background-color: #5EBFAC;
+  color: whitesmoke;
+  padding: 1px;
+  width: 50%;
+  margin-top: 5px;
+  margin-left: 5px; }
+
+.btn-xl {
+  text-transform: uppercase;
+  padding: 1.5rem 3rem;
+  font-size: 0.9rem;
+  font-weight: 700;
+  letter-spacing: 0.1rem; }
+
+.btn-md {
+  text-transform: uppercase;
+  padding: 1.0rem 2rem;
+  font-size: 0.9rem;
+  font-weight: 700;
+  letter-spacing: 0.1rem; }
 
 .botonCTA {
-    background-color: #f38291;
-    border: solid #f38291;
-    
-}
+  background-color: #f38291;
+  border: solid #f38291; }
 
 .backyellow {
-    background-color: #FCE800;
-    color: black;
-    width: 40%;
-}
+  background-color: #FCE800;
+  color: #000000;
+  width: 40%; }
 
 .margen10 {
-    margin: 10%;
-}
+  margin: 10%; }
 
 .bottom10 {
-    margin-bottom: 10%;
-}
+  margin-bottom: 10%; }
 
 .top10 {
-    margin-top: 10%;
-}
+  margin-top: 10%; }
 
 .left10 {
-    margin-left: 10%;
-}
+  margin-left: 10%; }
+
+.right10 {
+  margin-right: 10%; }
 
 .margen5 {
-    margin: 5%;
-}
+  margin: 5%; }
+
+.bottom5 {
+  margin-bottom: 5%; }
+
+.top5 {
+  margin-top: 5%; }
+
+.left5 {
+  margin-left: 5%; }
+
+.right5 {
+  margin-right: 5%; }
 
 .textoHomeEpisodio {
-    margin: 3%;
-}
+  margin: 3%; }
 
 .tituloCard {
-    font-size: 2rem;
-}
+  font-size: 2rem; }
 
 .footer {
-    background-color: #5EBFAC;
-    padding: 5%;
-    color: whitesmoke;
-}
+  background-color: #5EBFAC;
+  padding: 5%;
+  color: whitesmoke; }
 
 .iconosPodcast {
-    padding: 1%;
-}
+  padding: 1%; }
 
 .iconosRRSS {
-    margin: 5px;
-}
+  margin: 5px; }
 
 .footerFinal {
-    background-color: black;
-}
+  background-color: grey;
+  color: whitesmoke;
+  text-decoration: none; }
+
+.btn-morado {
+  color: whitesmoke;
+  background-color: #6C7CBC;
+  border-color: #6C7CBC; }
 
 /*Media Querie: General*/
+@media (min-width: 400px) and (max-width: 768px) {
+  .portadaBanner {
+    font-size: 35px; }
+  .portada2 {
+    font-size: 20px;
+    margin-bottom: 1%; }
+  .portada3 {
+    font-size: 20px; }
+  .backyellow {
+    font-size: 20px;
+    font-weight: 700;
+    width: max-content; }
+  .homeTeam {
+    display: none; }
+  .footer {
+    display: none; } }
 
-@media (min-width:400px) and (max-width:768px) {
-    .portadaBanner {
-        font-size: 35px;
-    }
-
-    .portada2 {
-        font-size: 20px;
-        margin-bottom: 1%;
-    }
-
-    .portada3 {
-        font-size: 20px;
-    }
-
-    .backyellow {
-        font-size: 20px;
-        font-weight:700;
-        width: max-content;
-    }
-
-    .homeTeam{
-        display: none;
-    }
-
-    .footer{
-        display: none;
-    }
-}
-
-@media (min-width:770px) and (max-width:1198px) {
-    .footer {
-        background-color: #FCE800;
-        color: black;
-        padding: 0;
-    }
-
-}
+@media (min-width: 770px) and (max-width: 1198px) {
+  .footer {
+    background-color: #FCE800;
+    color: #000000;
+    padding: 0; } }
 
 /*Media Querie: Paginas*/
-
-@media (min-width:400px) and (max-width:768px) {
-    .episodioRRSS {
-        display: none;
-    }
-
-    .staff {
-        display: none;
-    }
-
-    .iconosRRSS {
-        display: none;
-    }
-}
+@media (min-width: 400px) and (max-width: 768px) {
+  .episodioRRSS {
+    display: none; }
+  .staff {
+    display: none; }
+  .iconosRRSS {
+    display: none; } }
