@@ -79,8 +79,8 @@
 
 .btn-xl {
   text-transform: uppercase;
-  padding: 1.5rem 3rem;
-  font-size: 0.9rem;
+  padding: 1.2rem 3rem;
+  font-size: 1.5rem;
   font-weight: 700;
   letter-spacing: 0.1rem; }
 
@@ -157,10 +157,24 @@
   background-color: #6C7CBC;
   border-color: #6C7CBC; }
 
+.enlaceFlat {
+  text-decoration: none !important;
+  color: whitesmoke;
+  font-weight: 600; }
+
+.textNav {
+  font-size: 1.3rem; }
+
+.textMap {
+  text-decoration: none !important;
+  color: whitesmoke;
+  font-weight: 600;
+  font-size: 1.3rem; }
+
 /*Media Querie: General*/
 @media (min-width: 400px) and (max-width: 768px) {
   .portadaBanner {
-    font-size: 35px; }
+    font-size: 3rem; }
   .portada2 {
     font-size: 20px;
     margin-bottom: 1%; }
@@ -173,7 +187,22 @@
   .homeTeam {
     display: none; }
   .footer {
-    display: none; } }
+    display: none; }
+  .btn-xl {
+    text-transform: uppercase;
+    padding: 1rem;
+    font-size: 0.5rem;
+    font-weight: 300;
+    letter-spacing: 0.1rem; }
+  .textoSobreImg {
+    position: absolute;
+    top: 30%;
+    left: 10%;
+    font-weight: bold; }
+  .footerFinal {
+    display: none; }
+  .aside {
+    background-color: #f38291; } }
 
 @media (min-width: 770px) and (max-width: 1198px) {
   .footer {
