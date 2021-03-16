@@ -110,8 +110,8 @@ $negro: #000000;
 
 .btn-xl {
     text-transform: uppercase;
-    padding: 1.5rem 3rem;
-    font-size: 0.9rem;
+    padding: 1.2rem 3rem;
+    font-size: 1.5rem;
     font-weight: 700;
     letter-spacing: 0.1rem;
   }
@@ -127,7 +127,6 @@ $negro: #000000;
 .botonCTA {
     background-color: $rojoWabi;
     border: solid $rojoWabi;
-    
 }
 
 .backyellow {
@@ -210,11 +209,28 @@ $negro: #000000;
     border-color: $moradoWabi;
 }
 
+.enlaceFlat{
+    text-decoration: none !important;
+    color: $fuenteBlanca;
+    font-weight: 600;
+}
+
+.textNav{
+    font-size: 1.3rem;
+}
+
+.textMap {
+    text-decoration: none !important;
+    color: $fuenteBlanca;
+    font-weight: 600;
+    font-size: 1.3rem;
+}
+
 /*Media Querie: General*/
 
 @media (min-width:400px) and (max-width:768px) {
     .portadaBanner {
-        font-size: 35px;
+        font-size: 3rem;
     }
 
     .portada2 {
@@ -238,6 +254,30 @@ $negro: #000000;
 
     .footer{
         display: none;
+    }
+
+    .btn-xl{
+        text-transform: uppercase;
+        padding: 1rem;
+        font-size: 0.5rem;
+        font-weight: 300;
+        letter-spacing: 0.1rem;
+
+    }
+
+    .textoSobreImg{
+        position: absolute;
+        top: 30%;
+        left: 10%;
+        font-weight: bold;
+    }
+
+    .footerFinal{
+        display: none;
+    }
+
+    .aside{
+        background-color: $rojoWabi;
     }
 }
 
