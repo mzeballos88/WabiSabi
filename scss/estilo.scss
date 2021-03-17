@@ -228,7 +228,7 @@ $negro: #000000;
 
 /*Media Querie: General*/
 
-@media (min-width:400px) and (max-width:768px) {
+@media (min-width:370px) and (max-width:768px) {
     .portadaBanner {
         font-size: 3rem;
     }
@@ -236,16 +236,39 @@ $negro: #000000;
     .portada2 {
         font-size: 20px;
         margin-bottom: 1%;
+        background-color: transparent;
     }
 
     .portada3 {
         font-size: 20px;
+        background-color: transparent;
     }
 
+    .textoSobreImg {
+        position: absolute;
+        top: 50%;
+        left: 8%;
+    }
+
+    .videoBanner{
+        margin-top: 5rem;
+        width: 220%;
+    }
+
+    .bannerCTA{
+        display: flex;
+        justify-content: center;
+        margin-top: 5rem;
+    }
+    
     .backyellow {
         font-size: 20px;
         font-weight:700;
         width: max-content;
+    }
+
+    .main{
+        margin-top: 10rem;
     }
 
     .homeTeam{
@@ -258,18 +281,9 @@ $negro: #000000;
 
     .btn-xl{
         text-transform: uppercase;
-        padding: 1rem;
-        font-size: 0.5rem;
-        font-weight: 300;
+        font-size: 1rem;
+        font-weight: 700;
         letter-spacing: 0.1rem;
-
-    }
-
-    .textoSobreImg{
-        position: absolute;
-        top: 30%;
-        left: 10%;
-        font-weight: bold;
     }
 
     .footerFinal{
@@ -278,6 +292,10 @@ $negro: #000000;
 
     .aside{
         background-color: $rojoWabi;
+    }
+
+    .mt-5 {
+        margin-top: 0.5rem;
     }
 }
 
@@ -292,7 +310,7 @@ $negro: #000000;
 
 /*Media Querie: Paginas*/
 
-@media (min-width:400px) and (max-width:768px) {
+@media (min-width:370px) and (max-width:768px) {
     .episodioRRSS {
         display: none;
     }
@@ -304,4 +322,5 @@ $negro: #000000;
     .iconosRRSS {
         display: none;
     }
+
 }
