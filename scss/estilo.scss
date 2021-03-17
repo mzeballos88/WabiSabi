@@ -210,7 +210,7 @@ $negro: #000000;
 }
 
 .enlaceFlat{
-    text-decoration: none !important;
+    text-decoration: none;
     color: $fuenteBlanca;
     font-weight: 600;
 }
@@ -220,7 +220,7 @@ $negro: #000000;
 }
 
 .textMap {
-    text-decoration: none !important;
+    text-decoration: none;
     color: $fuenteBlanca;
     font-weight: 600;
     font-size: 1.3rem;
@@ -229,36 +229,53 @@ $negro: #000000;
 /*Media Querie: General*/
 
 @media (min-width:370px) and (max-width:768px) {
+    
+    #portada{
+        margin-top: 7rem;
+    }
+
     .portadaBanner {
         font-size: 3rem;
+        color: $negro;
+        text-align: center;
     }
 
     .portada2 {
         font-size: 20px;
         margin-bottom: 1%;
         background-color: transparent;
+        color: $negro;
+        text-align: center;
     }
 
     .portada3 {
         font-size: 20px;
         background-color: transparent;
+        color: $negro;
+        text-align: center;
+        width: 100%;
     }
 
     .textoSobreImg {
-        position: absolute;
-        top: 50%;
-        left: 8%;
+        position:static;
     }
 
     .videoBanner{
+        display: none;
+    }
+
+    /*.videoBanner{
         margin-top: 5rem;
         width: 220%;
-    }
+        display: inline-block;
+        border: hidden;
+        overflow: hidden;
+    }*/
 
     .bannerCTA{
         display: flex;
         justify-content: center;
-        margin-top: 5rem;
+        margin-top: 2rem;
     }
     
     .backyellow {
@@ -268,7 +285,11 @@ $negro: #000000;
     }
 
     .main{
-        margin-top: 10rem;
+        margin-top: 2rem;
+    }
+
+    .aside {
+        background-color: white !important;
     }
 
     .homeTeam{
@@ -295,8 +316,30 @@ $negro: #000000;
     }
 
     .mt-5 {
-        margin-top: 0.5rem;
+        margin-top: 0.5rem !important;
     }
+
+    .mb-5 {
+        margin-bottom: 0.5rem !important;
+    }
+
+    .display-4 {
+        font-size: 2rem;
+    }
+
+    .suscribete {
+        text-align: center !important;
+    }
+
+    .respiroVisual {
+        margin-top: 3rem;
+
+    }
+
+    .respiroVisual2{
+        margin-top: 5rem;
+    }
+
 }
 
 @media (min-width:770px) and (max-width:1198px) {
@@ -315,12 +358,13 @@ $negro: #000000;
         display: none;
     }
 
-    .staff {
-        display: none;
-    }
-
     .iconosRRSS {
         display: none;
     }
+
+    .textoHomeEpisodio{
+        font-size: 0.9rem;
+    }
+
 
 }
